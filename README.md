@@ -15,10 +15,10 @@ This C++ project provides a set of six image processing functions, designed to e
 
 1. [**Black & White Filter:**](blackAndWhite.cpp) Convert an image to black and white, removing color information.
 2. [**Invert Filter:**](invertImage.cpp) Invert the colors of an image.
-3. [**Merge Filter:**]() Merge two images into a single image.
+3. [**Merge Filter:**](mergeTwoImages.cpp) Merge two images into a single image.
 4. [**Flip Image:**](flipImage.cpp) Flip an image horizontally or vertically.
 5. [**Rotate Image:**](rotateImage.cpp) Rotate an image by a specified angle.
-6. [**Darken and Lighten Image:**]() Adjust the brightness of an image to make it darker or lighter.
+6. [**Darken and Lighten Image:**](darkenAndLighten.cpp) Adjust the brightness of an image to make it darker or lighter.
 
 ## Usage
 
