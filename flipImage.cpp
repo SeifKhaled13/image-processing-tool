@@ -39,5 +39,12 @@ void flipImage()
     cerr << "Error, Please enter a valid choice (h or v)" << endl;
     flipImage();
   }
+  for (int i = 0; i < SIZE; i++)
+  {
+    for (int j = 0; j < SIZE; j++)
+    {
+      image[i][j] = toMirror[i][j];
+    }
+  }
 }
 //================================== Osama Eslam ======================================
