@@ -1,7 +1,7 @@
 //================================== Seif Khaled ======================================
 void shuffleImage() {
     int quartersOrder[4];
-    cout << "Enter the desired order of quarters (e.g., 1 2 3 4): ";
+    cout << "Enter the desired order of quarters: ";
 
     for (int i = 0; i < 4; i++) {
         cin >> quartersOrder[i];
