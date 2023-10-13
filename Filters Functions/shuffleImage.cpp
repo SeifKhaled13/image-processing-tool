@@ -8,7 +8,7 @@ void shuffleImage() {
 
         // check for valid input
         if (quartersOrder[i] < 1 || quartersOrder[i] > 4) {
-            cout << "Invalid input. Enter numbers from 1 to 4." << endl;
+            cerr << "Invalid input. Enter numbers from 1 to 4." << endl;
             return;
         }
     }
