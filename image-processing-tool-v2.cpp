@@ -327,7 +327,7 @@ void shrinkImage() {
     }
 }
 //==================================10th Filter======================================
-void mirror(){
+void mirror() {
     char position;
     cout << "Enter the postition you want to mirror to (D)own, (U)pper, (L)eft and (R)right: ";
     cin >>  position;
